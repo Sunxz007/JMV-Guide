@@ -1,4 +1,27 @@
-[toc]
+
+- [Java 虚拟机简介](#java-虚拟机简介)
+  - [JVM的位置](#jvm的位置)
+  - [JVM 的整体结构](#jvm-的整体结构)
+  - [Java 代码执行流程](#java-代码执行流程)
+- [JVM 架构模型](#jvm-架构模型)
+- [JVM 声明周期](#jvm-声明周期)
+  - [启动](#启动)
+  - [执行](#执行)
+  - [退出](#退出)
+- [各类 JVM 的实现](#各类-jvm-的实现)
+  - [SUN Classic VM](#sun-classic-vm)
+  - [Exact VM](#exact-vm)
+  - [HotSpot VM](#hotspot-vm)
+  - [JRockit](#jrockit)
+  - [IBM J9](#ibm-j9)
+  - [KVM & CDC/CLDC Hotspot](#kvm--cdccldc-hotspot)
+  - [Azul VM & BEA Liquid VM](#azul-vm--bea-liquid-vm)
+  - [Apache Harmony](#apache-harmony)
+  - [Microsoft JVM](#microsoft-jvm)
+  - [TaobaoJVM](#taobaojvm)
+  - [Dalvik VM](#dalvik-vm)
+  - [Graal VM](#graal-vm)
+
 
 ## Java 虚拟机简介
 
@@ -80,7 +103,7 @@ Java 编译器输入端指令是基于**栈的指令集架构**
 * 除此之外，JNI规范描述了用JNI Invocation API来加载或卸载Java虚拟机时，Java虚拟机的退出情况
 
 
-## 各类 JVM 
+## 各类 JVM 的实现
 
 ### SUN Classic VM 
 
@@ -139,7 +162,7 @@ Java 编译器输入端指令是基于**栈的指令集架构**
 
 * 微软为了在IE3 中支持Java Applets 开发的
 * 只能在window平台下运行
-* 1997年，因侵权在window xp sp3 中移除 
+* 1997年，因侵权在window xp sp3 中移除
 
 
 ### TaobaoJVM
