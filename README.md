@@ -29,6 +29,10 @@ JVM 原理指南
 
  [2.2.4 运行时数据区-堆.md](doc/2.2.4运行时数据区-堆.md) 
 
+
+
+![截屏2020-06-13上午1.00.37](https://gitee.com/Sunxz007/PicStorage/raw/master/imgs/20200613010151.png)
+
 ### 第四部分 垃圾回收
 
 ### 第五部分 JVM优化
